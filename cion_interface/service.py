@@ -11,3 +11,8 @@ def update(swarm, service, image):
 @service.task
 def distribute_to(image):
     pass
+
+
+@service.task
+def webhook(hooks, data):
+    pass
